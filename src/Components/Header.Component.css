@@ -1,0 +1,43 @@
+header {
+    background-color: hsl(10, 79%, 56%);
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 3%;
+    border-radius: 15px;
+    color: white;
+    align-items: center;
+    margin-bottom: 3vh;
+
+}
+.empty  {
+    height: 3rem;
+    width: 3rem;
+    border: 2px solid white;
+    border-radius: 50%;
+    position: absolute;
+    right: 50%;
+}
+
+.full {
+    height: 3rem;
+    width: 3rem;
+    background-color: black;
+    border-radius: 50%;
+}
+.right {
+    display: flex;
+    position: relative;
+}
+span {
+    display: block;
+}
+.value {
+    font-weight: bold;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+.balance {
+    font-size: 14px;
+
+}

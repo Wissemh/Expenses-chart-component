@@ -1,0 +1,39 @@
+.vertical--container {
+    width: 11%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.vertical {
+    width: 100%;
+    background-color: hsl(10, 79%, 56%);
+    border-radius: 5%;
+    cursor: pointer;
+}
+.vertical:hover  {
+    background-color: hsl(28, 10%, 53%);
+}
+.vertical--container:hover  .amount {
+    display: flex;
+}
+
+.day {
+    text-align: center;
+    color: hsl(10, 79%, 56%);
+}
+.amount {
+    background-color: black;
+    color: white;
+    height: 1.7rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 150%;
+    border-radius: 5px;
+    margin-bottom: 1vh;
+   display: none;
+}/*
+hsl(25, 47%, 15%)
+- Medium brown: hsl(28, 10%, 53%)
+- Cream: hsl(27, 66%, 92%)
+- Very pale orange: hsl(33, 100%, 98%)*/

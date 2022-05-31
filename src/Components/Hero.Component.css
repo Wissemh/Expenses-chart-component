@@ -1,0 +1,30 @@
+.verticals {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+
+}
+.hero--container {
+    border-radius: 5%;
+    padding: 3%;
+    background-color: white;
+}
+hr {
+    height: 1px;
+    background-color: hsl(10, 79%, 56%);
+    margin: 3vh 0;
+}
+footer {
+    display: flex;
+    justify-content: space-between;
+}
+h1 {
+    margin: 0;
+}
+.span--color {
+    color: hsl(10, 79%, 56%);
+}
+p {
+    margin: 0;
+    font-weight: bold;
+}
